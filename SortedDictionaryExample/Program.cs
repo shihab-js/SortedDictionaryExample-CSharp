@@ -15,6 +15,13 @@ namespace SortedDictionaryExample
             names.Add(4, "Rayhan");
             names.Add(3, "Mithila");
             names.Add(1, "Shihab");
+
+            //Iterate the elements
+            foreach(KeyValuePair<int,string> kv in names)
+            {
+                Console.WriteLine(kv.Key + " " + kv.Value);
+            }
+
         }
     }
 }
