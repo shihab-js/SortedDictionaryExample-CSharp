@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SortedDictionaryExample
 {
@@ -6,7 +7,8 @@ namespace SortedDictionaryExample
     {
         static void Main(string[] args)
         {
-            
+            //create a sorted dictionary
+            SortedDictionary<int, string> names = new SortedDictionary<int, string>();
         }
     }
 }
